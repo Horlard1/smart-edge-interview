@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+live server has been set up for your to run your live server do:
+
+```bash 
+json-server --watch data/db.json --port 3500
+```
+
+NB: You need to install lives server globally on your system before you can run this
+
+Redux RTK Query has been set up and an example of how to fetch data using RTK Query has been done check it and continue with the other data fetching and mutations  
+
 First, run the development server:
 
 ```bash
